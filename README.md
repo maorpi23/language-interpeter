@@ -18,13 +18,6 @@ The core of the interpreter is built within the `Interpreter` class, which has t
 - `eval`: Evaluates nodes in the AST, handling constants, variable names, arithmetic operations, comparisons, assignments, loops, and function calls.
 - `repl`: A REPL (Read-Eval-Print Loop) for interactive code input and execution.
 
-### Built-In Functions and Modules
-The interpreter includes built-in functions and modules, such as:
-
-- Arithmetic Functions: `add`, `sub`, `mul`, `div`
-- String Operations: `replace_char`, `isUpper`, `isLower`
-- Math Module: Provides access to constants and functions from Python’s `math` module.
-
 ## Setup and Usage
 ### Requirements
 - Python 3: The interpreter relies on Python 3's `ast` module.
